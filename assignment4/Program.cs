@@ -131,6 +131,7 @@ namespace assignment4
 
             #endregion
             #region q2
+            // when i pass array of  numbers as value i pass it's address(reference) , so when i change on it i change the original one 
             /*  int[] numbers = {1,2,3};
               int[] nums = new int[numbers.Length];
                Passingreferencebyvalue(numbers);
@@ -138,7 +139,7 @@ namespace assignment4
               {
                   Console.WriteLine(num);
               }*/
-
+            // when i pass array of  numbers as reference i pass it's address(reference) , so when i change on it i change the original one
             //int[] numms = { 1, 2, 3 };
             //int[] numm = new int[numms.Length];
             //Passingreferencebyrefeence(ref numms);
